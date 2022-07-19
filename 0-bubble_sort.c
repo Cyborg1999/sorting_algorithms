@@ -27,7 +27,3 @@ void bubble_sort(int *array, size_t size)
 		}
 	}
 }
-<<<<<<< HEAD
-	
-=======
->>>>>>> 619800a89e42a32b34cf54c2f5abdb3aeb2e06ec
