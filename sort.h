@@ -24,7 +24,7 @@ void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
 /* Swapping number functions*/
-// void swap(int *a, int *b);
+void swap_int(int *a, int *b);
 void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2);
 
 /* Sorting Algorithms */
