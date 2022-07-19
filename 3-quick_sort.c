@@ -1,5 +1,20 @@
 #include "sort.h"
 
+/**
+ * _swap - swap two numbers.
+ * @a: integer
+ * @b: integer
+ **/
+
+void _swap(int *a, int *b)
+{
+	int tmp;
+
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
+
+}
 
 /**
  * _split - Split the array and takes the last element as pivot
@@ -32,7 +47,7 @@ int _split(int *arr, int min, int last, size_t size)
 		}
 	}
 
-	swap(&arr[i], &arr[last]);
+	_swap(&arr[i], &arr[last]);
 	if (i != j)
 		print_array(arr, size);
 
